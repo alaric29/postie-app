@@ -18,3 +18,5 @@ Route::get('/', [ExampleController::class, "homepage"]);
 Route::get('/about', [ExampleController::class, "aboutPage"]);
 
 Route::get('/contact', [ExampleController::class, "contact"]);
+
+Route::get('/links', [ExampleController::class, "links"]);
